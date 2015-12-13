@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B838B80C1C1DDCF8002BCC41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B80B1C1DDCF8002BCC41 /* AppDelegate.swift */; };
+		B838B80E1C1DDCF8002BCC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B80D1C1DDCF8002BCC41 /* ViewController.swift */; };
+		B838B8111C1DDCF8002BCC41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B838B80F1C1DDCF8002BCC41 /* Main.storyboard */; };
+		B838B8131C1DDCF8002BCC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B838B8121C1DDCF8002BCC41 /* Assets.xcassets */; };
+		B838B8161C1DDCF8002BCC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B838B8141C1DDCF8002BCC41 /* LaunchScreen.storyboard */; };
+		B838B8211C1DDCF9002BCC41 /* KaplanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B8201C1DDCF9002BCC41 /* KaplanTaskTests.swift */; };
+		B838B82C1C1DDCF9002BCC41 /* KaplanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B82B1C1DDCF9002BCC41 /* KaplanTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B838B81D1C1DDCF9002BCC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B838B8001C1DDCF8002BCC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B838B8071C1DDCF8002BCC41;
+			remoteInfo = KaplanTask;
+		};
+		B838B8281C1DDCF9002BCC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B838B8001C1DDCF8002BCC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B838B8071C1DDCF8002BCC41;
+			remoteInfo = KaplanTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B838B8081C1DDCF8002BCC41 /* KaplanTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaplanTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B838B80B1C1DDCF8002BCC41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B838B80D1C1DDCF8002BCC41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B838B8101C1DDCF8002BCC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B838B8121C1DDCF8002BCC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B838B8151C1DDCF8002BCC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B838B8171C1DDCF8002BCC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B838B81C1C1DDCF9002BCC41 /* KaplanTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaplanTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B838B8201C1DDCF9002BCC41 /* KaplanTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaplanTaskTests.swift; sourceTree = "<group>"; };
+		B838B8221C1DDCF9002BCC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B838B8271C1DDCF9002BCC41 /* KaplanTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaplanTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B838B82B1C1DDCF9002BCC41 /* KaplanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaplanTaskUITests.swift; sourceTree = "<group>"; };
+		B838B82D1C1DDCF9002BCC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B838B8051C1DDCF8002BCC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B8191C1DDCF9002BCC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B8241C1DDCF9002BCC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B838B7FF1C1DDCF8002BCC41 = {
+			isa = PBXGroup;
+			children = (
+				B838B80A1C1DDCF8002BCC41 /* KaplanTask */,
+				B838B81F1C1DDCF9002BCC41 /* KaplanTaskTests */,
+				B838B82A1C1DDCF9002BCC41 /* KaplanTaskUITests */,
+				B838B8091C1DDCF8002BCC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B838B8091C1DDCF8002BCC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B838B8081C1DDCF8002BCC41 /* KaplanTask.app */,
+				B838B81C1C1DDCF9002BCC41 /* KaplanTaskTests.xctest */,
+				B838B8271C1DDCF9002BCC41 /* KaplanTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B838B80A1C1DDCF8002BCC41 /* KaplanTask */ = {
+			isa = PBXGroup;
+			children = (
+				B838B80B1C1DDCF8002BCC41 /* AppDelegate.swift */,
+				B838B80D1C1DDCF8002BCC41 /* ViewController.swift */,
+				B838B80F1C1DDCF8002BCC41 /* Main.storyboard */,
+				B838B8121C1DDCF8002BCC41 /* Assets.xcassets */,
+				B838B8141C1DDCF8002BCC41 /* LaunchScreen.storyboard */,
+				B838B8171C1DDCF8002BCC41 /* Info.plist */,
+			);
+			path = KaplanTask;
+			sourceTree = "<group>";
+		};
+		B838B81F1C1DDCF9002BCC41 /* KaplanTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B838B8201C1DDCF9002BCC41 /* KaplanTaskTests.swift */,
+				B838B8221C1DDCF9002BCC41 /* Info.plist */,
+			);
+			path = KaplanTaskTests;
+			sourceTree = "<group>";
+		};
+		B838B82A1C1DDCF9002BCC41 /* KaplanTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B838B82B1C1DDCF9002BCC41 /* KaplanTaskUITests.swift */,
+				B838B82D1C1DDCF9002BCC41 /* Info.plist */,
+			);
+			path = KaplanTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B838B8071C1DDCF8002BCC41 /* KaplanTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B838B8301C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTask" */;
+			buildPhases = (
+				B838B8041C1DDCF8002BCC41 /* Sources */,
+				B838B8051C1DDCF8002BCC41 /* Frameworks */,
+				B838B8061C1DDCF8002BCC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaplanTask;
+			productName = KaplanTask;
+			productReference = B838B8081C1DDCF8002BCC41 /* KaplanTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B838B81B1C1DDCF9002BCC41 /* KaplanTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B838B8331C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskTests" */;
+			buildPhases = (
+				B838B8181C1DDCF9002BCC41 /* Sources */,
+				B838B8191C1DDCF9002BCC41 /* Frameworks */,
+				B838B81A1C1DDCF9002BCC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B838B81E1C1DDCF9002BCC41 /* PBXTargetDependency */,
+			);
+			name = KaplanTaskTests;
+			productName = KaplanTaskTests;
+			productReference = B838B81C1C1DDCF9002BCC41 /* KaplanTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B838B8261C1DDCF9002BCC41 /* KaplanTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B838B8361C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskUITests" */;
+			buildPhases = (
+				B838B8231C1DDCF9002BCC41 /* Sources */,
+				B838B8241C1DDCF9002BCC41 /* Frameworks */,
+				B838B8251C1DDCF9002BCC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B838B8291C1DDCF9002BCC41 /* PBXTargetDependency */,
+			);
+			name = KaplanTaskUITests;
+			productName = KaplanTaskUITests;
+			productReference = B838B8271C1DDCF9002BCC41 /* KaplanTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B838B8001C1DDCF8002BCC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Litman";
+				TargetAttributes = {
+					B838B8071C1DDCF8002BCC41 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B838B81B1C1DDCF9002BCC41 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B838B8071C1DDCF8002BCC41;
+					};
+					B838B8261C1DDCF9002BCC41 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B838B8071C1DDCF8002BCC41;
+					};
+				};
+			};
+			buildConfigurationList = B838B8031C1DDCF8002BCC41 /* Build configuration list for PBXProject "KaplanTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B838B7FF1C1DDCF8002BCC41;
+			productRefGroup = B838B8091C1DDCF8002BCC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B838B8071C1DDCF8002BCC41 /* KaplanTask */,
+				B838B81B1C1DDCF9002BCC41 /* KaplanTaskTests */,
+				B838B8261C1DDCF9002BCC41 /* KaplanTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B838B8061C1DDCF8002BCC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B838B8161C1DDCF8002BCC41 /* LaunchScreen.storyboard in Resources */,
+				B838B8131C1DDCF8002BCC41 /* Assets.xcassets in Resources */,
+				B838B8111C1DDCF8002BCC41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B81A1C1DDCF9002BCC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B8251C1DDCF9002BCC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B838B8041C1DDCF8002BCC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B838B80E1C1DDCF8002BCC41 /* ViewController.swift in Sources */,
+				B838B80C1C1DDCF8002BCC41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B8181C1DDCF9002BCC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B838B8211C1DDCF9002BCC41 /* KaplanTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B838B8231C1DDCF9002BCC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B838B82C1C1DDCF9002BCC41 /* KaplanTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B838B81E1C1DDCF9002BCC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B838B8071C1DDCF8002BCC41 /* KaplanTask */;
+			targetProxy = B838B81D1C1DDCF9002BCC41 /* PBXContainerItemProxy */;
+		};
+		B838B8291C1DDCF9002BCC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B838B8071C1DDCF8002BCC41 /* KaplanTask */;
+			targetProxy = B838B8281C1DDCF9002BCC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B838B80F1C1DDCF8002BCC41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B838B8101C1DDCF8002BCC41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B838B8141C1DDCF8002BCC41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B838B8151C1DDCF8002BCC41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B838B82E1C1DDCF9002BCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B838B82F1C1DDCF9002BCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B838B8311C1DDCF9002BCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaplanTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B838B8321C1DDCF9002BCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KaplanTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B838B8341C1DDCF9002BCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaplanTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaplanTask.app/KaplanTask";
+			};
+			name = Debug;
+		};
+		B838B8351C1DDCF9002BCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaplanTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaplanTask.app/KaplanTask";
+			};
+			name = Release;
+		};
+		B838B8371C1DDCF9002BCC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaplanTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaplanTask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B838B8381C1DDCF9002BCC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaplanTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaplan.KaplanTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaplanTask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B838B8031C1DDCF8002BCC41 /* Build configuration list for PBXProject "KaplanTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B838B82E1C1DDCF9002BCC41 /* Debug */,
+				B838B82F1C1DDCF9002BCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B838B8301C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B838B8311C1DDCF9002BCC41 /* Debug */,
+				B838B8321C1DDCF9002BCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B838B8331C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B838B8341C1DDCF9002BCC41 /* Debug */,
+				B838B8351C1DDCF9002BCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B838B8361C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B838B8371C1DDCF9002BCC41 /* Debug */,
+				B838B8381C1DDCF9002BCC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B838B8001C1DDCF8002BCC41 /* Project object */;
+}
