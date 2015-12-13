@@ -14,6 +14,7 @@
 		B838B8161C1DDCF8002BCC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B838B8141C1DDCF8002BCC41 /* LaunchScreen.storyboard */; };
 		B838B8211C1DDCF9002BCC41 /* KaplanTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B8201C1DDCF9002BCC41 /* KaplanTaskTests.swift */; };
 		B838B82C1C1DDCF9002BCC41 /* KaplanTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B82B1C1DDCF9002BCC41 /* KaplanTaskUITests.swift */; };
+		B838B83A1C1DF1BC002BCC41 /* Page2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838B8391C1DF1BC002BCC41 /* Page2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B838B8271C1DDCF9002BCC41 /* KaplanTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaplanTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B838B82B1C1DDCF9002BCC41 /* KaplanTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaplanTaskUITests.swift; sourceTree = "<group>"; };
 		B838B82D1C1DDCF9002BCC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B838B8391C1DF1BC002BCC41 /* Page2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B838B80B1C1DDCF8002BCC41 /* AppDelegate.swift */,
+				B838B8391C1DF1BC002BCC41 /* Page2VC.swift */,
 				B838B80D1C1DDCF8002BCC41 /* ViewController.swift */,
 				B838B80F1C1DDCF8002BCC41 /* Main.storyboard */,
 				B838B8121C1DDCF8002BCC41 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B838B80E1C1DDCF8002BCC41 /* ViewController.swift in Sources */,
+				B838B83A1C1DF1BC002BCC41 /* Page2VC.swift in Sources */,
 				B838B80C1C1DDCF8002BCC41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				B838B8321C1DDCF9002BCC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B838B8331C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				B838B8351C1DDCF9002BCC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B838B8361C1DDCF9002BCC41 /* Build configuration list for PBXNativeTarget "KaplanTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				B838B8381C1DDCF9002BCC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
